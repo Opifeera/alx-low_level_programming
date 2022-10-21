@@ -8,7 +8,7 @@
 int main(void)
 {
 
-	printf("/nwith proper grammar, but the outcome is a piece of art,");
+	printf("\nwith proper grammar, but the outcome is a piece of art,");
 
 	return (0);
 
