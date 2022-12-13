@@ -23,7 +23,7 @@ void print_to_98(int num)
 		}
 
 	}
-	else if (n > 98)
+	else if (num > 98)
 	{
 		while (num >= 98)
 		{
