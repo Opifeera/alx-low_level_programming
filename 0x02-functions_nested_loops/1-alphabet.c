@@ -8,7 +8,7 @@
 void print_alphabet(void)
 {
 	int lc;
-	lc = a;
+	lc = 'a';
 
 	for(lc = 'a', lc <= 'z'; lc++)
 	{
