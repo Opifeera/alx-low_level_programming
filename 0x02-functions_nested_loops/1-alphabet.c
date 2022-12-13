@@ -3,12 +3,11 @@
 /**
  * print_alphabet - prints lower case alphabet
  *
- * Return: Always 0
+ * Return: Nothing
  */
 void print_alphabet(void)
 {
 	int lc;
-	lc = 'a';
 
 	for(lc = 'a', lc <= 'z'; lc++)
 	{
