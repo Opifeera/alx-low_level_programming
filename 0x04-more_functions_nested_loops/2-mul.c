@@ -6,7 +6,7 @@
  * @a: digit 1
  * @b: digit 2
  *
- * Return: Product 
+ * Return: Product
  */
 int mul(int a, int b)
 {
