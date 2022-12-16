@@ -8,17 +8,20 @@
 int main(void)
 {
 	int num;
+	char fi[] = "Fizz";
+	char bu[] = "Buzz";
+	char fibu[] = "FizzBuzz";
 
 	for (num = 1; num <= 100; num++)
 	{
 		if (num == 100)
-			printf("Buzz ");
+			printf("%s ", bu);
 		else if ((num % 3 == 0) && (num % 5 == 0))
-			printf("FizzBuzz ");
+			printf("%s ", fibu);
 		else if (num % 3 == 0)
-			printf("Fizz ");
+			printf("%s ", fi);
 		else if (num % 5 == 0)
-			printf("Buzz ");
+			printf("%s ", bu);
 		else
 			printf("%d ", num);
 	}
