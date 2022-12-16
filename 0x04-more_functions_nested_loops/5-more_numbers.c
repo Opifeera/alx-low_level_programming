@@ -9,9 +9,9 @@ void more_numbers(void)
 {
 	int row, col;
 
-	while (row < 10)
+	while (row <= 10)
 	{
-		while (col <= 14)
+		while (col < 14)
 		{
 			if (col >= 10)
 				_putchar((col / 10) + '0');
