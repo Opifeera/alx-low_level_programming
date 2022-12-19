@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - function that resets a variable's value
  *
- * @*n: address arg
+ * @n: address arg
  *
  * Return: value
  */
