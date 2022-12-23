@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * leetch - the leet challenge
+ * leet - the leet challenge
  *
  * @y: characters param
  *
  * Return: String
  */
-char *leetch(char *y)
+char *leet(char *y)
 {
 	int i = 0, j, k = 5;
 
