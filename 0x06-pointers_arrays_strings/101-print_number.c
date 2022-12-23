@@ -1,12 +1,11 @@
 #include "main.h"
 
-int _putchar(char c);
 /**
  * print_number - prints an integer
  *
  * @n: integer param
  *
- * Return: integer
+ * Return: nothing
  */
 void print_number(int n)
 {
