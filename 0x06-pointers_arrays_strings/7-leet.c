@@ -20,7 +20,7 @@ char *leetch(char *y)
 
 		while (j < k)
 		{
-			if(y[i] == tr[j] || y[i] - 32 == tr[j])
+			if (y[i] == tr[j] || y[i] - 32 == tr[j])
 				y[i] = tw[j];
 			j++;
 		}
