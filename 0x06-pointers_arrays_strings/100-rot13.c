@@ -21,7 +21,6 @@ char *rot13(char *str)
 			  'Z', 'A', 'B', 'C', 'D', 'E',
 			  'F', 'G', 'H', 'I', 'J', 'K',
 			  'L', 'M'};
-	
 	while (str[i])
 	{
 		for (j = 0; j < 52; j++)
