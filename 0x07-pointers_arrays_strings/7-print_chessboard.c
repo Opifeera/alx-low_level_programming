@@ -1,4 +1,5 @@
 #include "main.h"
+int _putchar(char c);
 
 /**
  * print_chessboard - function prints a chessboard
