@@ -11,8 +11,8 @@
 int _sqrt_recursion(int n);
 int sqrt(int i, int rt)
 {
-	if (rt * rt == i)
-		return rt;
+	if ((rt * rt) == i)
+		return (rt);
 	if (rt == (i / 2))
 		return (-1);
 	return (sqrt(i, (rt + 1)));
