@@ -8,6 +8,7 @@
  *
  * Return: as conditioned
  */
+int _sqrt_recursion(int n);
 int sqrt(int i, int rt)
 {
 	if (rt * rt == i)
