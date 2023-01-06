@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * sqrt - finds natural square root of number
+ * _sqrt - finds natural square root of number
  *
  * @i: value 1
  * @rt: value 2
@@ -9,13 +9,13 @@
  * Return: as conditioned
  */
 int _sqrt_recursion(int n);
-int sqrt(int i, int rt)
+int _sqrt(int i, int rt)
 {
 	if ((rt * rt) == i)
 		return (rt);
 	if (rt == (i / 2))
 		return (-1);
-	return (sqrt(i, (rt + 1)));
+	return (_sqrt(i, (rt + 1)));
 }
 
 /**
@@ -33,6 +33,6 @@ int _sqrt_recursion(int n)
 		return (-1);
 	if (n == 1)
 		return (1);
-	return (sqrt(n, rt));
+	return (_sqrt(n, rt));
 }
 
