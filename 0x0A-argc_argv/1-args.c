@@ -11,10 +11,6 @@
 int main(int argc, char *argv[])
 {
 	(void) argv;
-	int count = 0;
-
-	if (argc >= 1)
-		count++
-	printf("%d\n", count);
+	printf("%d\n", (arg - 1));
 	return (0);
 }
