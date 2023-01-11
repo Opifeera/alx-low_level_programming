@@ -9,7 +9,7 @@
  *
  * Return: string length
  */
-int _strlen(char _s)
+int _strlen(char *s)
 {
 	unsigned int i = 0;
 
