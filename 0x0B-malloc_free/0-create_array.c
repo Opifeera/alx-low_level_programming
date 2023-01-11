@@ -30,6 +30,6 @@ char *create_array(unsigned int size, char c)
 			*(buf + pos) = c;
 			pos++;
 		}
-		return (buf);
 	}
+	return (buf);
 }
