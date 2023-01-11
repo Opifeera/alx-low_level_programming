@@ -3,6 +3,22 @@
 #include <stdlib.h>
 
 /**
+ * _strlen - finds the length of a string
+ *
+ * @s: string
+ *
+ * Return: string length
+ */
+int _strlen(char _s)
+{
+	unsigned int i = 0;
+
+	while (s[i] != '\0')
+		i++;
+	return (i);
+}
+
+/**
  * str_concat - concatenates two strings
  *
  * @s1: string 1
