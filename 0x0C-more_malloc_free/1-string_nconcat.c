@@ -6,7 +6,7 @@
  * string_nconcat - function that concatenates two strings
  *
  * @s1: string 1
- * @s2: string 
+ * @s2: string
  * @n: element number
  *
  * Return: pointer to array
