@@ -4,6 +4,9 @@
 /**
  * struct dog - dog struct
  *
+ * @name: name
+ * @age: age
+ * @owner: owner
  * Description: helps create a kind of a class
  */
 struct dog
