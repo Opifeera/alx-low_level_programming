@@ -7,6 +7,8 @@
  * @array: the array to be taken
  * @size: size of the array
  * @action: function pointer
+ *
+ * Return: nothing
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
