@@ -23,4 +23,3 @@
 	iii. You should go through the list only once
 	iv. If the function fails, exit the program with status 98
 102-free_listint_safe.c: function that frees a listint_t list.
-
